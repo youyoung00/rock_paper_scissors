@@ -7,7 +7,6 @@ class View extends StatefulWidget {
 }
 
 class _ViewState extends State<View> {
-
   Logic logic = Logic();
   String btnText = "게임 시작!";
   bool isPlay = false;
@@ -120,4 +119,3 @@ class _ViewState extends State<View> {
     );
   }
 }
-
